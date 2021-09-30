@@ -1,21 +1,33 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
+}
+
+// Reescrevi a cor para conseguir continuar utilizando o bootstrap e ser compativel com o site
+.btn-warning {
+    background-color: #f79d2d !important;
+}
+
+.header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
 }
 
 .background {
     &-image {
-    background-image: url('../img/BG-1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    }
-    &-dots {
-        background-image: url('../img/Dots\ 8px-1.png');
+        background-image: url("../img/BG-1.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh;
+    }
+    &-dots {
+        background-image: url("../img/Dots\ 8px-1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 
@@ -23,4 +35,9 @@ body {
     margin: 10vh 0 5vh;
     width: 128px;
     height: 128px;
+}
+
+.register {
+    background: #f79d2d;
+    border-radius: 5px;
 }
