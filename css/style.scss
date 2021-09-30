@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto';
+}
+
+.background {
+    &-image {
+    background-image: url('../img/BG-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    }
+    &-dots {
+        background-image: url('../img/Dots\ 8px-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+}
+
+.logo {
+    margin: 10vh 0 5vh;
+    width: 128px;
+    height: 128px;
+}
