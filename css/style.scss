@@ -3,6 +3,7 @@ $dark-orange: #F97423;
 
 body {
     font-family: "Roboto";
+    color: #ABABAB;
 }
 
 a {
@@ -54,5 +55,11 @@ a:hover {
 
 .btn-orange:hover {
     background-color: $dark-orange !important;
+}
+
+.copyright {
+    font-family: Nunito;
+    font-size: 15px;
+    line-height: 20px;
 }
 
