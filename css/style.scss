@@ -1,10 +1,19 @@
+$orange: #F79D2D;
+$dark-orange: #F97423;
+
 body {
     font-family: "Roboto";
 }
 
-// Reescrevi a cor para conseguir continuar utilizando o bootstrap e ser compativel com o site
-.btn-warning {
-    background-color: #f79d2d !important;
+a {
+    color: $dark-orange;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.1s
+}
+
+a:hover {
+    color: $orange;
 }
 
 .header {
@@ -37,7 +46,13 @@ body {
     height: 128px;
 }
 
-.register {
-    background: #f79d2d;
-    border-radius: 5px;
+
+.btn-orange {
+    background-color: $orange !important;
+    transition: 0.3s;
 }
+
+.btn-orange:hover {
+    background-color: $dark-orange !important;
+}
+
