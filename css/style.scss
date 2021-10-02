@@ -1,21 +1,25 @@
-$orange: #F79D2D;
-$dark-orange: #F97423;
+// Variaveis
+
+$orange: #f79d2d;
+$dark-orange: #f97423;
 
 body {
     font-family: "Roboto";
-    color: #ABABAB;
+    color: #ababab;
 }
 
 a {
     color: $dark-orange;
     font-weight: bold;
     text-decoration: none;
-    transition: 0.1s
+    transition: 0.1s;
 }
 
 a:hover {
     color: $orange;
 }
+
+// Register and log in
 
 .header {
     font-style: normal;
@@ -27,18 +31,17 @@ a:hover {
 }
 
 .background {
-    background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 110%;
     &-image {
         background-image: url("../img/BG-1.png");
-        
     }
     &-dots {
         background-image: url("../img/Dots\ 8px-1.png");
-        
     }
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
 }
 
 .logo {
@@ -46,7 +49,6 @@ a:hover {
     width: 128px;
     height: 128px;
 }
-
 
 .btn-orange {
     background-color: $orange !important;
@@ -63,3 +65,32 @@ a:hover {
     line-height: 20px;
 }
 
+// Home
+
+.logo {
+    &-nav {
+        width: 43px;
+        height: 43px;
+        border-radius: 18px;
+        margin: 0 28px 0 90px;
+    }
+
+    &-extended {
+        font-weight: 500;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+        color: $dark-orange;
+    }
+}
+
+.nav-item {
+    width: 165px;
+    height: 36px;  
+    border-radius: 5px; 
+}
+
+#login {
+    font-size: 18px
+}
