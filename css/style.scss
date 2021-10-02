@@ -85,12 +85,41 @@ a:hover {
     }
 }
 
+.navbar-light {
+    background-color: white;
+}
+
 .nav-item {
     width: 165px;
-    height: 36px;  
-    border-radius: 5px; 
+    height: 36px;
+    border-radius: 5px;
 }
 
 #login {
-    font-size: 18px
+    font-size: 18px;
+}
+
+.margin-90 {
+    margin-left: 90px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 100px;
+    color: $orange;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.hire-us {
+    background: #FDE5CA;
+    border-radius: 10px;
+    color: $dark-orange;
+    font-weight: 500;
+    
+
 }
