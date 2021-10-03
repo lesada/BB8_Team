@@ -2,6 +2,9 @@
 
 $orange: #f79d2d;
 $dark-orange: #f97423;
+$purple: #be49e8;
+$blue: #5398e9;
+$green: #2bbc5d;
 
 body {
     font-family: "Roboto";
@@ -117,7 +120,7 @@ a:hover {
 }
 
 .hire-us {
-    background: #FDE5CA;
+    background: #fde5ca;
     border-radius: 10px;
     color: $dark-orange;
     font-weight: 500;
@@ -133,4 +136,43 @@ a:hover {
     color: #515151;
     font-size: 20px;
     font-weight: 300;
+}
+
+.cards-div-title {
+    color: $dark-orange;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.inner-card-title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+
+    margin: 0;
+}
+
+.purple {
+    color: $purple;
+}
+
+.border-purple {
+    border-color: $purple;
+}
+
+.blue {
+    color: $blue;
+}
+
+.border-blue {
+    border-color: $blue;
+}
+
+.green {
+    color: $green;
+}
+
+.border-green {
+    border-color: $green;
 }
