@@ -87,6 +87,7 @@ a:hover {
 
 .navbar-light {
     background-color: white;
+    // width: 100vw
 }
 
 .nav-item {
@@ -120,6 +121,16 @@ a:hover {
     border-radius: 10px;
     color: $dark-orange;
     font-weight: 500;
-    
+}
 
+.companies-title {
+    color: #515151;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.companies-subtitle {
+    color: #515151;
+    font-size: 20px;
+    font-weight: 300;
 }
