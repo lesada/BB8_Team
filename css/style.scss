@@ -176,3 +176,31 @@ a:hover {
 .border-green {
     border-color: $green;
 }
+
+.orange {
+    color: $orange;
+}
+
+.border-orange {
+    border-color: $orange;
+}
+
+.customers-section {
+    &-title {
+        margin: 8rem 0 4rem 0;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 70px;
+        display: flex;
+        align-items: center;
+
+        color: $dark-orange;
+    }
+
+.autor {
+    font-size: 25px;
+    color: #3B3B3B
+}   
+}
+
+    
